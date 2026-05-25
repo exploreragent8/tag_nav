@@ -1,0 +1,4053 @@
+{
+  "dataRoot": "https://huggingface.co/datasets/exploreragent8/DestBench",
+  "hfDataset": "exploreragent8/DestBench",
+  "hfRevision": "main",
+  "totalTasks": 91,
+  "totalApps": 6,
+  "apps": [
+    {
+      "id": "amazon_32.3.0.100",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "taskCount": 17,
+      "logoSlug": "amazon"
+    },
+    {
+      "id": "calendar_2026.05.0-864040481-release",
+      "app": "calendar",
+      "appDisplay": "Calendar",
+      "version": "2026.05.0-864040481-release",
+      "taskCount": 10,
+      "logoSlug": "googlecalendar"
+    },
+    {
+      "id": "clock_8.5",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "taskCount": 12,
+      "logoSlug": "google"
+    },
+    {
+      "id": "google_maps_26.06.01.863982022",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "taskCount": 24,
+      "logoSlug": "googlemaps"
+    },
+    {
+      "id": "settings_16",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "taskCount": 13,
+      "logoSlug": "android"
+    },
+    {
+      "id": "youtube_21.05.264",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "taskCount": 15,
+      "logoSlug": "youtube"
+    }
+  ],
+  "trajectories": [
+    {
+      "id": "amazon_32.3.0.100/amazon_account",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_account",
+      "prompt": "Go to the account payment settings",
+      "prompts": [
+        "Go to the account payment settings",
+        "Navigate to the default payment method settings.",
+        "Navigate the user to the page where they can edit their payment method for a current order."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 324,
+          "y": 2228,
+          "t": 1770676491.378877
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 997,
+          "y": 1827,
+          "t": 1770676505.6921442
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 243,
+          "y": 1578,
+          "t": 1770676550.143214
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 851,
+          "y": 448,
+          "t": 1770676563.9259698
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_account_2",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_account_2",
+      "prompt": "Go to the account payment settings",
+      "prompts": [
+        "Go to the account payment settings",
+        "Navigate to the default payment method settings.",
+        "Navigate the user to the page where they can edit their payment method for a current order."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 324,
+          "y": 2228,
+          "t": 1770676781.0422778
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 1003,
+          "y": 1830,
+          "t": 1770676795.676123
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 230,
+          "y": 1571,
+          "t": 1770676813.926451
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 854,
+          "y": 448,
+          "t": 1770676827.708771
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_addresses",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_addresses",
+      "prompt": "View saved addresses.",
+      "prompts": [
+        "View saved addresses.",
+        "Go to the page where the user can add a new saved address.",
+        "Navigate to the addresses page."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_scroll_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 327,
+          "y": 2235,
+          "t": 1770679169.509481
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 676,
+          "y": 474,
+          "t": 1770679205.438463
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770679218.154901
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 227,
+          "y": 1649,
+          "t": 1770679231.836906
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_cart",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_cart",
+      "prompt": "View the cart",
+      "prompts": [
+        "View the cart",
+        "Navigate to the current cart"
+      ],
+      "frames": [
+        "frame_000001_after_wait_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "wait",
+          "t": 1770678687.6404421
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 547,
+          "y": 2235,
+          "t": 1770678693.389616
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_cart_2",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_cart_2",
+      "prompt": "View the cart",
+      "prompts": [
+        "View the cart",
+        "Navigate to the current cart"
+      ],
+      "frames": [
+        "frame_000001_after_wait_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "wait",
+          "t": 1770678936.721075
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 550,
+          "y": 2231,
+          "t": 1770678947.289084
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_content_library",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_content_library",
+      "prompt": "Navigate to the content library.",
+      "prompts": [
+        "Navigate to the content library.",
+        "Go to the page where the user can manage their digital content."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_scroll_normal.png",
+        "frame_000003_after_scroll_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 324,
+          "y": 2238,
+          "t": 1770682275.4678001
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770683127.10913
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770683145.4037151
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 239,
+          "y": 1655,
+          "t": 1770683170.05074
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_gift_card",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_gift_card",
+      "prompt": "Visit the gift card management page.",
+      "prompts": [
+        "Visit the gift card management page.",
+        "Go to the page where the user can add money to their gift card balance.",
+        "View gift card balance activity."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 324,
+          "y": 2231,
+          "t": 1770680709.670142
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 1000,
+          "y": 1827,
+          "t": 1770680724.104275
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_help",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_help",
+      "prompt": "Navigate to the customer service home page.",
+      "prompts": [
+        "Navigate to the customer service home page.",
+        "Go to the page where a user can get help with a previous order.",
+        "Visit the order customer service page."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_scroll_normal.png",
+        "frame_000003_after_scroll_normal.png",
+        "frame_000004_after_scroll_normal.png",
+        "frame_000005_after_scroll_normal.png",
+        "frame_000006_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 757,
+          "y": 2231,
+          "t": 1770681118.3019469
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770681131.951683
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770681145.9846652
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770681159.051666
+        },
+        {
+          "step": 4,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770681172.570009
+        },
+        {
+          "step": 5,
+          "type": "action",
+          "action": "tap",
+          "x": 275,
+          "y": 1610,
+          "t": 1770681187.30393
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_help_2",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_help_2",
+      "prompt": "Navigate to the customer service home page.",
+      "prompts": [
+        "Navigate to the customer service home page.",
+        "Go to the page where a user can get help with a previous order.",
+        "Visit the order customer service page."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 327,
+          "y": 2228,
+          "t": 1770681732.788494
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 1003,
+          "y": 1830,
+          "t": 1770681746.383578
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 194,
+          "y": 1015,
+          "t": 1770681769.8026292
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_membership",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_membership",
+      "prompt": "Navigate to the subscriptions page.",
+      "prompts": [
+        "Navigate to the subscriptions page.",
+        "View the user's subscriptions.",
+        "Go to the current memberships"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 324,
+          "y": 2228,
+          "t": 1770684097.7662861
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 1000,
+          "y": 1833,
+          "t": 1770684129.1493802
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 184,
+          "y": 2005,
+          "t": 1770684166.6498501
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_notifs",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_notifs",
+      "prompt": "Find the account security notification settings.",
+      "prompts": [
+        "Find the account security notification settings.",
+        "Visit the delivery notification settings toggle.",
+        "Navigate to the page where the user can toggle Alexa-enabled order notifications."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 320,
+          "y": 2225,
+          "t": 1770680108.2215512
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 699,
+          "y": 332,
+          "t": 1770680141.087357
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 172,
+          "y": 1710,
+          "t": 1770680156.054673
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 320,
+          "y": 532,
+          "t": 1770680182.954984
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_orders",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_orders",
+      "prompt": "View past orders.",
+      "prompts": [
+        "View past orders.",
+        "Navigate to the user's previous orders.",
+        "Look for the purchase history page."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 754,
+          "y": 2231,
+          "t": 1770676167.578054
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 165,
+          "y": 451,
+          "t": 1770676182.926539
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_payment_methods",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_payment_methods",
+      "prompt": "Visit the user's saved cards.",
+      "prompts": [
+        "Visit the user's saved cards.",
+        "View payment methods.",
+        "View the current Amazon balance."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 324,
+          "y": 2228,
+          "t": 1770678478.089859
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 563,
+          "y": 1972,
+          "t": 1770678508.155765
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_rufus",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_rufus",
+      "prompt": "Navigate to the Rufus page.",
+      "prompts": [
+        "Navigate to the Rufus page.",
+        "Go to the Rufus chat."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 981,
+          "y": 2231,
+          "t": 1770683974.384562
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_search",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_search",
+      "prompt": "Go to the search page.",
+      "prompts": [
+        "Go to the search page.",
+        "Open the product search menu."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 550,
+          "y": 183,
+          "t": 1770679456.2887082
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_wishlists",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_wishlists",
+      "prompt": "View all wish lists",
+      "prompts": [
+        "View all wish lists",
+        "Go to the lists page",
+        "Navigate to the user's saved lists"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 757,
+          "y": 2235,
+          "t": 1770676292.036101
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 460,
+          "y": 455,
+          "t": 1770676334.86055
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "amazon_32.3.0.100/amazon_wishlists_2",
+      "app": "amazon",
+      "appDisplay": "Amazon",
+      "version": "32.3.0.100",
+      "task": "amazon_wishlists_2",
+      "prompt": "View all wish lists",
+      "prompts": [
+        "View all wish lists",
+        "Go to the lists page",
+        "Navigate to the user's saved lists"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 320,
+          "y": 2230,
+          "t": 1770680529.438217
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 1003,
+          "y": 1417,
+          "t": 1770680543.137475
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "calendar_2026.05.0-864040481-release/run_026_google_calendar",
+      "app": "calendar",
+      "appDisplay": "Calendar",
+      "version": "2026.05.0-864040481-release",
+      "task": "run_026_google_calendar",
+      "prompt": "Navigate to the page where a new task can be created.",
+      "prompts": [
+        "Navigate to the page where a new task can be created.",
+        "Navigate to the page to create a new task event."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 840,
+          "y": 1992,
+          "t": 1770665083.9134257
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 783,
+          "y": 1715,
+          "t": 1770665100.5086837
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "calendar_2026.05.0-864040481-release/run_027_google_calendar",
+      "app": "calendar",
+      "appDisplay": "Calendar",
+      "version": "2026.05.0-864040481-release",
+      "task": "run_027_google_calendar",
+      "prompt": "Navigate to the page to toggle \u201cUse device time zone.\u201d",
+      "prompts": [
+        "Navigate to the page to toggle \u201cUse device time zone.\u201d",
+        "Navigate to the page where the \u201cUse device time zone\u201d setting can be enabled or disabled.",
+        "Navigate to the page that allows hiding completed tasks.",
+        "Navigate to the page for General settings."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 68,
+          "y": 229,
+          "t": 1770665220.4886484
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 171,
+          "y": 1666,
+          "t": 1770665246.2836745
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 206,
+          "y": 359,
+          "t": 1770665269.102646
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "calendar_2026.05.0-864040481-release/run_028_google_calendar",
+      "app": "calendar",
+      "appDisplay": "Calendar",
+      "version": "2026.05.0-864040481-release",
+      "task": "run_028_google_calendar",
+      "prompt": "Navigate to the page to add a new email account to the calendar.",
+      "prompts": [
+        "Navigate to the page to add a new email account to the calendar.",
+        "Navigate to the page where a new email account can be added for calendar synchronization."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 67,
+          "y": 223,
+          "t": 1770665508.5605907
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 174,
+          "y": 1666,
+          "t": 1770665528.0373983
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 242,
+          "y": 610,
+          "t": 1770665544.194511
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 252,
+          "y": 537,
+          "t": 1770665567.072661
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "calendar_2026.05.0-864040481-release/run_029_google_calendar",
+      "app": "calendar",
+      "appDisplay": "Calendar",
+      "version": "2026.05.0-864040481-release",
+      "task": "run_029_google_calendar",
+      "prompt": "Navigate to the page to view the list of tasks.",
+      "prompts": [
+        "Navigate to the page to view the list of tasks.",
+        "Navigate to the Tasks page to see existing tasks."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 778,
+          "y": 224,
+          "t": 1770665692.9315615
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "calendar_2026.05.0-864040481-release/run_030_google_calendar",
+      "app": "calendar",
+      "appDisplay": "Calendar",
+      "version": "2026.05.0-864040481-release",
+      "task": "run_030_google_calendar",
+      "prompt": "Navigate to the page to change the calendar view from \u201cSchedule\u201d to \u201cDay.\u201d",
+      "prompts": [
+        "Navigate to the page to change the calendar view from \u201cSchedule\u201d to \u201cDay.\u201d",
+        "Navigate to the page that allows refreshing or reloading the calendar.",
+        "Navigate to the page to enable displaying birthdays and holidays in the calendar."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 79,
+          "y": 224,
+          "t": 1770665805.3756425
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "calendar_2026.05.0-864040481-release/run_031_google_calendar",
+      "app": "calendar",
+      "appDisplay": "Calendar",
+      "version": "2026.05.0-864040481-release",
+      "task": "run_031_google_calendar",
+      "prompt": "Navigate to the page to manage accounts on the device.",
+      "prompts": [
+        "Navigate to the page to manage accounts on the device.",
+        "Navigate to the system settings page for managing accounts on the device.",
+        "Navigate to the page where automatic app data synchronization can be enabled."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 886,
+          "y": 220,
+          "t": 1770666011.000583
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 264,
+          "y": 1014,
+          "t": 1770666026.7804034
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "calendar_2026.05.0-864040481-release/run_032_google_calendar",
+      "app": "calendar",
+      "appDisplay": "Calendar",
+      "version": "2026.05.0-864040481-release",
+      "task": "run_032_google_calendar",
+      "prompt": "Navigate to the page to change the application theme.",
+      "prompts": [
+        "Navigate to the page to change the application theme.",
+        "Navigate to the page where the theme can be switched from system default to Light.",
+        "Navigate to the application settings page where the theme can be changed."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 82,
+          "y": 221,
+          "t": 1770669164.2784615
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 176,
+          "y": 1675,
+          "t": 1770669202.9705124
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 204,
+          "y": 356,
+          "t": 1770669220.8314912
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 213,
+          "y": 2070,
+          "t": 1770669240.380367
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "calendar_2026.05.0-864040481-release/run_033_google_calendar",
+      "app": "calendar",
+      "appDisplay": "Calendar",
+      "version": "2026.05.0-864040481-release",
+      "task": "run_033_google_calendar",
+      "prompt": "Navigate to the notifications settings for the Calendar app.",
+      "prompts": [
+        "Navigate to the notifications settings for the Calendar app.",
+        "Navigate to the page to toggle on \u201cPop on screen.\u201d"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_scroll_normal.png",
+        "frame_000005_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 68,
+          "y": 221,
+          "t": 1770669462.9975314
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 204,
+          "y": 1671,
+          "t": 1770669480.0021882
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 219,
+          "y": 362,
+          "t": 1770669502.5193596
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770669527.7745569
+        },
+        {
+          "step": 4,
+          "type": "action",
+          "action": "tap",
+          "x": 252,
+          "y": 1738,
+          "t": 1770669545.775474
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "calendar_2026.05.0-864040481-release/run_034_google_calendar",
+      "app": "calendar",
+      "appDisplay": "Calendar",
+      "version": "2026.05.0-864040481-release",
+      "task": "run_034_google_calendar",
+      "prompt": "Navigate to the page to disable \u201cShare Google Calendar data with other apps.\u201d",
+      "prompts": [
+        "Navigate to the page to disable \u201cShare Google Calendar data with other apps.\u201d",
+        "Navigate to the calendar privacy settings page to disable sharing calendar data with other applications."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_scroll_normal.png",
+        "frame_000005_after_scroll_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 70,
+          "y": 226,
+          "t": 1770669727.2695413
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 183,
+          "y": 1672,
+          "t": 1770669744.7723238
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 207,
+          "y": 366,
+          "t": 1770669761.4984024
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770669780.4483469
+        },
+        {
+          "step": 4,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770669800.6013162
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "calendar_2026.05.0-864040481-release/run_035_google_calendar",
+      "app": "calendar",
+      "appDisplay": "Calendar",
+      "version": "2026.05.0-864040481-release",
+      "task": "run_035_google_calendar",
+      "prompt": "Navigate to the page to enable \u201cShow events from Gmail.\u201d",
+      "prompts": [
+        "Navigate to the page to enable \u201cShow events from Gmail.\u201d",
+        "Navigate to the calendar settings page to turn on showing events from Gmail."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 71,
+          "y": 221,
+          "t": 1770669913.0372937
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 188,
+          "y": 1662,
+          "t": 1770669940.144132
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 222,
+          "y": 488,
+          "t": 1770669956.4014094
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "clock_8.5/run_012_clock",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "task": "run_012_clock",
+      "prompt": "Navigate to the Settings page.",
+      "prompts": [
+        "Navigate to the Settings page.",
+        "Navigate to the page to enable alarm synchronization.",
+        "Navigate to the page to change the alarm volume.",
+        "Navigate to the volume settings page to adjust the alarm volume."
+      ],
+      "frames": [
+        "frame_000000_start_popup.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 581,
+          "y": 1883,
+          "t": 1770404003.7653804
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 900,
+          "y": 218,
+          "t": 1770404021.423126
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 618,
+          "y": 468,
+          "t": 1770404032.3139277
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "clock_8.5/run_013_clock",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "task": "run_013_clock",
+      "prompt": "Navigate to the settings page where the behavior of the volume buttons can be changed.",
+      "prompts": [
+        "Navigate to the settings page where the behavior of the volume buttons can be changed.",
+        "Navigate to the page to change what the volume buttons control.",
+        "Navigate to the settings page where the volume button action can be set to \u201cDo nothing.\u201d"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 906,
+          "y": 215,
+          "t": 1770404157.4589865
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 662,
+          "y": 470,
+          "t": 1770404239.7989593
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 159,
+          "y": 1884,
+          "t": 1770404264.7400525
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "clock_8.5/run_014_clock",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "task": "run_014_clock",
+      "prompt": "Navigate to the Timer section.",
+      "prompts": [
+        "Navigate to the Timer section.",
+        "Navigate to the Timer tab."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 476,
+          "y": 2004,
+          "t": 1770404537.6330934
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "clock_8.5/run_015_clock",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "task": "run_015_clock",
+      "prompt": "Navigate to the page where a user can add a city time zone.",
+      "prompts": [
+        "Navigate to the page where a user can add a city time zone.",
+        "Navigate to the page where a user can search for a city time zone."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 832,
+          "y": 1834,
+          "t": 1770404619.2522345
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "clock_8.5/run_017_clock",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "task": "run_017_clock",
+      "prompt": "Navigate to the page to set the time for a new alarm.",
+      "prompts": [
+        "Navigate to the page to set the time for a new alarm.",
+        "Navigate to the page where a new alarm time can be created and set."
+      ],
+      "frames": [
+        "frame_000000_start_popup.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 523,
+          "y": 314,
+          "t": 1770663382.7308626
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 95,
+          "y": 2001,
+          "t": 1770663394.923918
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 829,
+          "y": 1811,
+          "t": 1770663405.0955665
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "clock_8.5/run_018_clock",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "task": "run_018_clock",
+      "prompt": "Navigate to the page to change the temperature unit.",
+      "prompts": [
+        "Navigate to the page to change the temperature unit.",
+        "Navigate to the page that allows changing temperature units from Celsius to Fahrenheit."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_scroll_normal.png",
+        "frame_000004_after_scroll_normal.png",
+        "frame_000005_after_scroll_normal.png",
+        "frame_000006_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 903,
+          "y": 224,
+          "t": 1770663504.237894
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 630,
+          "y": 474,
+          "t": 1770663514.3326738
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770663541.9139924
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770663553.3846145
+        },
+        {
+          "step": 4,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770663564.548614
+        },
+        {
+          "step": 5,
+          "type": "action",
+          "action": "tap",
+          "x": 180,
+          "y": 1536,
+          "t": 1770663576.0106773
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "clock_8.5/run_019_clock",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "task": "run_019_clock",
+      "prompt": "Navigate to the page to set a regular wake-up alarm.",
+      "prompts": [
+        "Navigate to the page to set a regular wake-up alarm.",
+        "Navigate to the page where a recurring wake-up alarm can be configured.",
+        "Navigate to the page to set the alarm to repeat on Mondays, Wednesdays, and Fridays."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 873,
+          "y": 1994,
+          "t": 1770663758.606699
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 469,
+          "y": 1726,
+          "t": 1770663775.8817933
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "clock_8.5/run_021_clock",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "task": "run_021_clock",
+      "prompt": "Navigate to the page to set a regular wake-up alarm.",
+      "prompts": [
+        "Navigate to the page to set a regular wake-up alarm.",
+        "Navigate to the page where a recurring wake-up alarm can be configured.",
+        "Navigate to the page to set the alarm to repeat on Mondays, Wednesdays, and Fridays."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 849,
+          "y": 2019,
+          "t": 1770664012.9358845
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 687,
+          "y": 583,
+          "t": 1770664027.420781
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "clock_8.5/run_022_clock",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "task": "run_022_clock",
+      "prompt": "Navigate to the page to view weather insights.",
+      "prompts": [
+        "Navigate to the page to view weather insights.",
+        "Navigate to the page that displays weather insights and analysis.",
+        "Navigate to the page that provides an AI-generated weather report.",
+        "Navigate to the page to view the hourly weather forecast."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 880,
+          "y": 707,
+          "t": 1770664112.995681
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "clock_8.5/run_023_clock",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "task": "run_023_clock",
+      "prompt": "Navigate to the page to toggle displaying daily device usage in bedtime information.",
+      "prompts": [
+        "Navigate to the page to toggle displaying daily device usage in bedtime information.",
+        "Navigate to the page where bedtime data can be deleted.",
+        "Navigate to the page used to delete stored bedtime data.",
+        "Navigate to the bedtime settings page that controls sensor data display (e.g., light detection) during scheduled bedtime hours.",
+        "Navigate to the page to manage data of the bedtime."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 871,
+          "y": 2000,
+          "t": 1770664299.3376055
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 865,
+          "y": 930,
+          "t": 1770664310.4635878
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 595,
+          "y": 1060,
+          "t": 1770664321.7326002
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "clock_8.5/run_024_clock",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "task": "run_024_clock",
+      "prompt": "Navigate to the page to change the clock style.",
+      "prompts": [
+        "Navigate to the page to change the clock style.",
+        "Navigate to the page to switch the clock display from digital to analog."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_scroll_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 894,
+          "y": 223,
+          "t": 1770664537.5597782
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 620,
+          "y": 465,
+          "t": 1770664548.1135757
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770664568.65959
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 110,
+          "y": 1931,
+          "t": 1770664578.9535165
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "clock_8.5/run_025_clock",
+      "app": "clock",
+      "appDisplay": "Clock",
+      "version": "8.5",
+      "task": "run_025_clock",
+      "prompt": "Navigate to the page where the home time zone can be updated.",
+      "prompts": [
+        "Navigate to the page where the home time zone can be updated.",
+        "Navigate to the page to change the home time zone.",
+        "Navigate to the settings page for changing the home time zone."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_scroll_normal.png",
+        "frame_000004_after_scroll_normal.png",
+        "frame_000005_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 900,
+          "y": 230,
+          "t": 1770664665.1464667
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 606,
+          "y": 468,
+          "t": 1770664676.267733
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770664824.0437613
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770664835.6725621
+        },
+        {
+          "step": 4,
+          "type": "action",
+          "action": "tap",
+          "x": 147,
+          "y": 1859,
+          "t": 1770664847.8195589
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/google_maps_change_language",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "google_maps_change_language",
+      "prompt": "Navigate to the change language page",
+      "prompts": [
+        "Navigate to the change language page",
+        "Go to the language selection page",
+        "View available languages"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_scroll_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png",
+        "frame_000005_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 196,
+          "t": 1770405882.509386
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770405893.759866
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 275,
+          "y": 1895,
+          "t": 1770405904.793396
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 333,
+          "y": 371,
+          "t": 1770405919.674795
+        },
+        {
+          "step": 4,
+          "type": "action",
+          "action": "tap",
+          "x": 133,
+          "y": 380,
+          "t": 1770405931.3599129
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/google_maps_contribute",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "google_maps_contribute",
+      "prompt": "Go to the contribution creation page.",
+      "prompts": [
+        "Go to the contribution creation page.",
+        "Open the contribute page"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 900,
+          "y": 2176,
+          "t": 1770405431.344453
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/google_maps_contribute_profile",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "google_maps_contribute_profile",
+      "prompt": "View the user's contribution profile",
+      "prompts": [
+        "View the user's contribution profile",
+        "Go to the user's contribution profile"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 974,
+          "y": 193,
+          "t": 1770405533.527426
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 230,
+          "y": 1332,
+          "t": 1770405550.360666
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/google_maps_driving_options",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "google_maps_driving_options",
+      "prompt": "Go to the driving options section in the settings",
+      "prompts": [
+        "Go to the driving options section in the settings",
+        "Find the driving options",
+        "Navigate to the speed limit toggle"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_scroll_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png",
+        "frame_000005_after_scroll_normal.png",
+        "frame_000006_after_scroll_normal.png",
+        "frame_000007_after_scroll_normal.png",
+        "frame_000008_after_scroll_normal.png",
+        "frame_000009_after_scroll_normal.png",
+        "frame_000010_after_scroll_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 196,
+          "t": 1770406062.876031
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770406078.5268428
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 239,
+          "y": 1891,
+          "t": 1770406096.7091289
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 356,
+          "y": 574,
+          "t": 1770406111.7259321
+        },
+        {
+          "step": 4,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770406131.1419861
+        },
+        {
+          "step": 5,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770406151.309941
+        },
+        {
+          "step": 6,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770406169.809758
+        },
+        {
+          "step": 7,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770406187.059055
+        },
+        {
+          "step": 8,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770406198.892535
+        },
+        {
+          "step": 9,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770406221.426047
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/google_maps_location_sharing",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "google_maps_location_sharing",
+      "prompt": "Go to the location sharing page",
+      "prompts": [
+        "Go to the location sharing page",
+        "Navigate to the location sharing page",
+        "Reach the page where a user can share their location with friends"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 968,
+          "y": 199,
+          "t": 1770406731.179907
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 278,
+          "y": 1655,
+          "t": 1770406744.208878
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/google_maps_map_options",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "google_maps_map_options",
+      "prompt": "Navigate to the map display options",
+      "prompts": [
+        "Navigate to the map display options",
+        "Find the Satellite view map option",
+        "Find the wildfires map view option"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 984,
+          "y": 500,
+          "t": 1770406385.009807
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/google_maps_notif_settings",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "google_maps_notif_settings",
+      "prompt": "Navigate to the user's notifications settings",
+      "prompts": [
+        "Navigate to the user's notifications settings",
+        "Reach notification controls"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_scroll_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 193,
+          "t": 1770405140.8257449
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770405152.2778938
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 233,
+          "y": 1895,
+          "t": 1770405164.614719
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 298,
+          "y": 1380,
+          "t": 1770405178.9777122
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/google_maps_offline_maps",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "google_maps_offline_maps",
+      "prompt": "Open offline maps screen",
+      "prompts": [
+        "Open offline maps screen",
+        "View the user's offline maps"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 199,
+          "t": 1770404901.5953631
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 259,
+          "y": 1820,
+          "t": 1770404922.744937
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/google_maps_privacy_settings",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "google_maps_privacy_settings",
+      "prompt": "Go to the privacy settings",
+      "prompts": [
+        "Go to the privacy settings",
+        "Open privacy controls",
+        "Visit the location settings"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_scroll_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 196,
+          "t": 1770405287.427823
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770405299.511002
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 246,
+          "y": 1895,
+          "t": 1770405315.89467
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 304,
+          "y": 985,
+          "t": 1770405329.094441
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/google_maps_saved_places",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "google_maps_saved_places",
+      "prompt": "Navigate to the user's saved lists",
+      "prompts": [
+        "Navigate to the user's saved lists",
+        "Reach the user's lists of saved locations.",
+        "View the user's saved lists"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_scroll_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 540,
+          "y": 2183,
+          "t": 1770404766.347795
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770404778.544543
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/google_maps_timeline",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "google_maps_timeline",
+      "prompt": "Go to the user's timeline",
+      "prompts": [
+        "Go to the user's timeline",
+        "Visit the user's timeline",
+        "Reach the user's location history"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_wait_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 974,
+          "y": 193,
+          "t": 1770405008.462639
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 275,
+          "y": 1493,
+          "t": 1770405024.009896
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "wait",
+          "t": 1770405043.928064
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/google_maps_vehicle_selection",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "google_maps_vehicle_selection",
+      "prompt": "Go to the user's vehicle selection page",
+      "prompts": [
+        "Go to the user's vehicle selection page",
+        "Reach the car avatar changing page",
+        "Visit the page where the user can change the user's car"
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_scroll_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 196,
+          "t": 1770405649.977515
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770405694.027236
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 246,
+          "y": 1891,
+          "t": 1770405706.725717
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 278,
+          "y": 772,
+          "t": 1770405720.743809
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/run_001_googlemap",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "run_001_googlemap",
+      "prompt": "Navigate to the page to view the user\u2019s recent places.",
+      "prompts": [
+        "Navigate to the page to view the user\u2019s recent places.",
+        "Navigate to the page where a new place category can be created.",
+        "Navigate to the page to bookmark recently visited places."
+      ],
+      "frames": [
+        "frame_000000_start_popup.png",
+        "frame_000001_after_tap_popup.png",
+        "frame_000002_after_tap_popup.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 493,
+          "y": 2000,
+          "t": 1770735008.760631
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 793,
+          "y": 1995,
+          "t": 1770735024.372772
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 732,
+          "y": 2012,
+          "t": 1770735062.9976864
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 493,
+          "y": 2010,
+          "t": 1770735163.2427528
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/run_002_googlemap",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "run_002_googlemap",
+      "prompt": "Navigate to the settings page.",
+      "prompts": [
+        "Navigate to the settings page."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 867,
+          "y": 214,
+          "t": 1770735566.6625898
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 123,
+          "y": 1944,
+          "t": 1770735581.059639
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/run_003_googlemap",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "run_003_googlemap",
+      "prompt": "Navigate to the display settings.",
+      "prompts": [
+        "Navigate to the display settings.",
+        "Navigate to the page to enable \"Start app in satellite view\".",
+        "Navigate to the page to enable \"Shake to send feedback\"."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 871,
+          "y": 224,
+          "t": 1770735633.8996842
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 189,
+          "y": 1946,
+          "t": 1770735658.567604
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 285,
+          "y": 350,
+          "t": 1770735679.8275867
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/run_004_googlemap",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "run_004_googlemap",
+      "prompt": "Navigate to the page to turn on notifications.",
+      "prompts": [
+        "Navigate to the page to turn on notifications.",
+        "Navigate to access notifications settings."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 877,
+          "y": 226,
+          "t": 1770735911.5156052
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 185,
+          "y": 1950,
+          "t": 1770735933.3108466
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 273,
+          "y": 1174,
+          "t": 1770736060.201769
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/run_005_googlemap",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "run_005_googlemap",
+      "prompt": "Navigate to the \"Contribute\" page.",
+      "prompts": [
+        "Navigate to the \"Contribute\" page.",
+        "Navigate to the page to see the requirements to earn new contributor badge."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 793,
+          "y": 2016,
+          "t": 1770736260.408607
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/run_006_googlemap",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "run_006_googlemap",
+      "prompt": "Navigate to the page where the user can view their reviews.",
+      "prompts": [
+        "Navigate to the page where the user can view their reviews.",
+        "Navigate to the user\u2019s profile page.",
+        "Navigate to the page where the user can see the bio."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 801,
+          "y": 2007,
+          "t": 1770736376.4417014
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 829,
+          "y": 419,
+          "t": 1770736394.5825608
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/run_007_googlemap",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "run_007_googlemap",
+      "prompt": "Navigate to the page to view all places the user has visited.",
+      "prompts": [
+        "Navigate to the page to view all places the user has visited."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 484,
+          "y": 2028,
+          "t": 1770736770.2647421
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 451,
+          "y": 1086,
+          "t": 1770736787.01555
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/run_008_googlemap",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "run_008_googlemap",
+      "prompt": "Navigate to the bio editing page.",
+      "prompts": [
+        "Navigate to the bio editing page.",
+        "Navigate to the page where the user can write a bio.",
+        "Navigate to the page to edit the user profile."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 805,
+          "y": 1998,
+          "t": 1770736888.6347084
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 819,
+          "y": 417,
+          "t": 1770736904.336532
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 420,
+          "y": 522,
+          "t": 1770736919.427466
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/run_010_googlemap",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "run_010_googlemap",
+      "prompt": "Navigate to the page to change the theme.",
+      "prompts": [
+        "Navigate to the page to change the theme.",
+        "Navigate to the page to switch the theme from Light to Dark.",
+        "Navigate to the page where the application theme can be changed."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 871,
+          "y": 236,
+          "t": 1770737074.3515866
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 198,
+          "y": 1941,
+          "t": 1770737238.1376631
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 313,
+          "y": 353,
+          "t": 1770737266.2136042
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 105,
+          "y": 529,
+          "t": 1770737282.9825087
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/run_011_googlemap",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "run_011_googlemap",
+      "prompt": "Navigate to the page where the user can change the application language.",
+      "prompts": [
+        "Navigate to the page where the user can change the application language.",
+        "Navigate to the page to change the app language to Catalan."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 867,
+          "y": 232,
+          "t": 1770737613.2395601
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 237,
+          "y": 1946,
+          "t": 1770737628.5775027
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 261,
+          "y": 369,
+          "t": 1770737651.5036452
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 126,
+          "y": 368,
+          "t": 1770737665.4724355
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/run_012_googlemap",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "run_012_googlemap",
+      "prompt": "Navigate to the page to view today\u2019s timeline of visits.",
+      "prompts": [
+        "Navigate to the page to view today\u2019s timeline of visits.",
+        "Navigate to timeline in \"You\" tab."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_scroll_normal.png",
+        "frame_000003_after_scroll_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 475,
+          "y": 2010,
+          "t": 1770737806.4867294
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770737824.4115586
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770737842.2566512
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 324,
+          "y": 1784,
+          "t": 1770737857.1166523
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "google_maps_26.06.01.863982022/run_013_googlemap",
+      "app": "google_maps",
+      "appDisplay": "Google Maps",
+      "version": "26.06.01.863982022",
+      "task": "run_013_googlemap",
+      "prompt": "Navigate to \"your data in maps\" section.",
+      "prompts": [
+        "Navigate to \"your data in maps\" section."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 876,
+          "y": 221,
+          "t": 1770738456.2233934
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 194,
+          "y": 1816,
+          "t": 1770738479.9847765
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_001_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_001_settings",
+      "prompt": "Navigate to the page showing battery usage by individual applications.",
+      "prompts": [
+        "Navigate to the page showing battery usage by individual applications.",
+        "Navigate to the page displaying battery level since the last full charge.",
+        "Navigate to the battery usage statistics page."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_scroll_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770392766.5048194
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 252,
+          "y": 2019,
+          "t": 1770392779.1817632
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 203,
+          "y": 746,
+          "t": 1770392790.161758
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_002_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_002_settings",
+      "prompt": "Navigate to the page for troubleshooting mobile network connection issues.",
+      "prompts": [
+        "Navigate to the page for troubleshooting mobile network connection issues.",
+        "Navigate to the system settings page used to troubleshoot mobile data connection problems.",
+        "Navigate to the page providing tips and recommendations to improve mobile network connectivity."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_scroll_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "scroll_up",
+          "t": 1770392935.9696925
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 271,
+          "y": 841,
+          "t": 1770392949.7185445
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 215,
+          "y": 1686,
+          "t": 1770392964.096556
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_003_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_003_settings",
+      "prompt": "Navigate to the page to manage default applications.",
+      "prompts": [
+        "Navigate to the page to manage default applications.",
+        "Navigate to the system settings page for managing default applications."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 264,
+          "y": 1204,
+          "t": 1770393157.8456554
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 143,
+          "y": 1434,
+          "t": 1770393171.9096606
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_004_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_004_settings",
+      "prompt": "Navigate to the page that shows device information.",
+      "prompts": [
+        "Navigate to the page that shows device information.",
+        "Navigate to the page displaying the phone\u2019s model, EID, and IMEI details.",
+        "Navigate to the system settings page that lists device identifiers and hardware information."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_scroll_normal.png",
+        "frame_000002_after_scroll_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_scroll_normal.png",
+        "frame_000005_after_scroll_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770393258.1725864
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770393273.3815873
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 210,
+          "y": 1769,
+          "t": 1770393306.6425405
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770393337.5877047
+        },
+        {
+          "step": 4,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770393361.8014877
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_005_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_005_settings",
+      "prompt": "Navigate to the sound and vibration settings page.",
+      "prompts": [
+        "Navigate to the sound and vibration settings page.",
+        "Navigate to the page to change the ringtone volume.",
+        "Navigate to the page to change the call volume.",
+        "Navigate to the page to change the alarm volume.",
+        "Navigate to the page to turn off vibration and haptics."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_scroll_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "scroll_up",
+          "t": 1770393492.680605
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 280,
+          "y": 947,
+          "t": 1770393504.0366628
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_006_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_006_settings",
+      "prompt": "Navigate to the page to change wallpaper.",
+      "prompts": [
+        "Navigate to the page to change wallpaper.",
+        "Navigate to the page to change lock screen wallpaper."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 225,
+          "y": 1470,
+          "t": 1770393708.5534997
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_007_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_007_settings",
+      "prompt": "Navigate to the page that shows storage usage by different applications.",
+      "prompts": [
+        "Navigate to the page that shows storage usage by different applications.",
+        "Navigate to the page displaying how much storage each app is using.",
+        "Navigate to the system settings page that lists storage usage for individual apps."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 206,
+          "y": 1683,
+          "t": 1770394864.6980174
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_008_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_008_settings",
+      "prompt": "Navigate to the page to change the screen color settings from Natural to Adaptive.",
+      "prompts": [
+        "Navigate to the page to change the screen color settings from Natural to Adaptive.",
+        "Navigate to the display settings page where screen color mode can be changed from Natural to Adaptive.",
+        "Navigate to the page for adjusting screen color modes, such as Natural and Adaptive."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_scroll_normal.png",
+        "frame_000003_after_scroll_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 213,
+          "y": 1898,
+          "t": 1770395093.5295005
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770395111.0048292
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770395127.6864755
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 116,
+          "y": 1321,
+          "t": 1770395145.6536129
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_009_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_009_settings",
+      "prompt": "Navigate to the page to change the screen resolution.",
+      "prompts": [
+        "Navigate to the page to change the screen resolution.",
+        "Navigate to the display settings page where screen resolution can be adjusted.",
+        "Navigate to the page that allows setting the display resolution to its highest option."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_scroll_normal.png",
+        "frame_000003_after_scroll_normal.png",
+        "frame_000004_after_scroll_normal.png",
+        "frame_000005_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 242,
+          "y": 1919,
+          "t": 1770395240.95039
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770395256.4315712
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770395381.5824454
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770395392.165444
+        },
+        {
+          "step": 4,
+          "type": "action",
+          "action": "tap",
+          "x": 158,
+          "y": 1834,
+          "t": 1770395403.6884444
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_010_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_010_settings",
+      "prompt": "Navigate to the page to view connection preferences settings.",
+      "prompts": [
+        "Navigate to the page to view connection preferences settings.",
+        "Navigate to the page that shows connection preference settings.",
+        "Navigate to the system settings page for managing connection preferences."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 236,
+          "y": 1011,
+          "t": 1770395517.0255764
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 201,
+          "y": 1194,
+          "t": 1770395531.474579
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_011_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_011_settings",
+      "prompt": "Navigate to the page to toggle the \u201cUse connected cameras\u201d setting.",
+      "prompts": [
+        "Navigate to the page to toggle the \u201cUse connected cameras\u201d setting.",
+        "Navigate to the system settings page where connected camera usage can be enabled or disabled.",
+        "Navigate to the help or information page listing devices compatible as remote cameras."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 268,
+          "y": 1030,
+          "t": 1770395893.4995196
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 282,
+          "y": 1201,
+          "t": 1770395906.6665285
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 313,
+          "y": 1367,
+          "t": 1770395919.8885167
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_012_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_012_settings",
+      "prompt": "Navigate to the page to pair a new device under Connected devices.",
+      "prompts": [
+        "Navigate to the page to pair a new device under Connected devices.",
+        "Navigate to the page for pairing a new device in Connected devices settings."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 292,
+          "y": 1020,
+          "t": 1770396267.4083185
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 246,
+          "y": 712,
+          "t": 1770396277.7583761
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "settings_16/run_014_settings",
+      "app": "settings",
+      "appDisplay": "Settings",
+      "version": "16",
+      "task": "run_014_settings",
+      "prompt": "Navigate to the page to view the Bluetooth device name.",
+      "prompts": [
+        "Navigate to the page to view the Bluetooth device name.",
+        "Navigate to the page to enable automatic Bluetooth turn-on.",
+        "Navigate to the system settings page for Bluetooth."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 265,
+          "y": 1024,
+          "t": 1770396533.5894587
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 218,
+          "y": 1220,
+          "t": 1770396544.1085303
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 273,
+          "y": 368,
+          "t": 1770396556.833632
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_appearance",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_appearance",
+      "prompt": "Navigate to the screen appearance selection.",
+      "prompts": [
+        "Navigate to the screen appearance selection.",
+        "Go to the screen that allows the user to change their appearance preference.",
+        "Open the appearance settings."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png",
+        "frame_000004_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 2225,
+          "t": 1770686801.661887
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 1016,
+          "y": 167,
+          "t": 1770686815.761609
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 256,
+          "y": 474,
+          "t": 1770686829.045776
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "tap",
+          "x": 172,
+          "y": 345,
+          "t": 1770686842.7289321
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_browse_movies",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_browse_movies",
+      "prompt": "Browse the movies and TV shows offered on YouTube.",
+      "prompts": [
+        "Browse the movies and TV shows offered on YouTube.",
+        "Go to the browse movies page.",
+        "Visit the page where the user can browse movies and TV shows."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 974,
+          "y": 2241,
+          "t": 1770685636.46399
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 265,
+          "y": 2089,
+          "t": 1770685658.8144221
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 107,
+          "y": 487,
+          "t": 1770685672.997646
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_help",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_help",
+      "prompt": "Visit the help page.",
+      "prompts": [
+        "Visit the help page.",
+        "View popular articles for help resources.",
+        "Go to the help resources."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_scroll_normal.png",
+        "frame_000004_after_scroll_normal.png",
+        "frame_000005_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 2225,
+          "t": 1770686494.313492
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 1010,
+          "y": 170,
+          "t": 1770686507.5464451
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770686521.162762
+        },
+        {
+          "step": 3,
+          "type": "action",
+          "action": "scroll_down",
+          "t": 1770686534.695601
+        },
+        {
+          "step": 4,
+          "type": "action",
+          "action": "tap",
+          "x": 223,
+          "y": 2105,
+          "t": 1770686549.1454122
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_history",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_history",
+      "prompt": "Navigate to the history page.",
+      "prompts": [
+        "Navigate to the history page.",
+        "View previous watch history.",
+        "Go to the page with the user's watch history."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 2226,
+          "t": 1770684821.3339
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 922,
+          "y": 728,
+          "t": 1770684836.997351
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_notifs",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_notifs",
+      "prompt": "Navigate to the notifications settings page.",
+      "prompts": [
+        "Navigate to the notifications settings page.",
+        "Go to the notifications settings.",
+        "Visit the page where the user can toggle recommended video notifications."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 2231,
+          "t": 1770685336.078896
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 1013,
+          "y": 167,
+          "t": 1770685349.829216
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 265,
+          "y": 1231,
+          "t": 1770685365.247564
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_playlists",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_playlists",
+      "prompt": "View the user's playlists.",
+      "prompts": [
+        "View the user's playlists.",
+        "Go to the playlists page.",
+        "Navigate to the playlists."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 974,
+          "y": 2228,
+          "t": 1770684947.714116
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 919,
+          "y": 1341,
+          "t": 1770684996.596857
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_privacy",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_privacy",
+      "prompt": "Navigate to the privacy settings",
+      "prompts": [
+        "Navigate to the privacy settings",
+        "Go to the page where the user can access their Ad Center.",
+        "Visit the user's privacy settings."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png",
+        "frame_000003_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 2228,
+          "t": 1770685765.679859
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 1013,
+          "y": 170,
+          "t": 1770685780.380316
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "tap",
+          "x": 220,
+          "y": 1992,
+          "t": 1770685794.164066
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_search",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_search",
+      "prompt": "Navigate to the search bar",
+      "prompts": [
+        "Navigate to the search bar",
+        "Open the search input",
+        "Go to the search page."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 1010,
+          "y": 170,
+          "t": 1770686671.3123698
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_shorts",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_shorts",
+      "prompt": "Navigate to the Shorts page.",
+      "prompts": [
+        "Navigate to the Shorts page.",
+        "View YouTube shorts page."
+      ],
+      "frames": [
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 324,
+          "y": 2222,
+          "t": 1770684673.365696
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_subscriptions",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_subscriptions",
+      "prompt": "Navigate to the subscriptions tab.",
+      "prompts": [
+        "Navigate to the subscriptions tab.",
+        "View the user's subscriptions."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 757,
+          "y": 2225,
+          "t": 1770685072.34772
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_subscriptions_2",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_subscriptions_2",
+      "prompt": "Navigate to the subscriptions tab.",
+      "prompts": [
+        "Navigate to the subscriptions tab.",
+        "View the user's subscriptions."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 757,
+          "y": 2228,
+          "t": 1770685193.197869
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_view_notifs",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_view_notifs",
+      "prompt": "Navigate to the notifications page.",
+      "prompts": [
+        "Navigate to the notifications page.",
+        "View the user's notifications."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_permission.png",
+        "frame_000003_after_wait_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 877,
+          "y": 170,
+          "t": 1770685945.9641118
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 515,
+          "y": 1587,
+          "t": 1770685961.6299121
+        },
+        {
+          "step": 2,
+          "type": "action",
+          "action": "wait",
+          "t": 1770685979.12902
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_view_notifs_2",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_view_notifs_2",
+      "prompt": "View the user's notifications.",
+      "prompts": [
+        "View the user's notifications.",
+        "Go to the notifications page."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 877,
+          "y": 176,
+          "t": 1770686044.4466329
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_your_channel",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_your_channel",
+      "prompt": "Navigate to the user's channel.",
+      "prompts": [
+        "Navigate to the user's channel.",
+        "View the user's channel.",
+        "Go to the user's channel page."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 2170,
+          "t": 1770686215.863843
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 770,
+          "y": 419,
+          "t": 1770686229.845143
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    },
+    {
+      "id": "youtube_21.05.264/youtube_your_videos",
+      "app": "youtube",
+      "appDisplay": "Youtube",
+      "version": "21.05.264",
+      "task": "youtube_your_videos",
+      "prompt": "Navigate to the user's uploaded videos.",
+      "prompts": [
+        "Navigate to the user's uploaded videos.",
+        "Go to the \"Your videos\" page.",
+        "Visit the page where the user can view their videos."
+      ],
+      "frames": [
+        "frame_000000_start_normal.png",
+        "frame_000001_after_tap_normal.png",
+        "frame_000002_after_tap_normal.png"
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "type": "action",
+          "action": "tap",
+          "x": 971,
+          "y": 2231,
+          "t": 1770685468.21419
+        },
+        {
+          "step": 1,
+          "type": "action",
+          "action": "tap",
+          "x": 259,
+          "y": 1943,
+          "t": 1770685484.198108
+        }
+      ],
+      "imageWidth": 960,
+      "imageHeight": 2142
+    }
+  ]
+}
