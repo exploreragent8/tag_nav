@@ -1,0 +1,13 @@
+# Local dataset symlink (too large to commit)
+public/dataset
+
+# HF file-list cache from build_manifest.py
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store

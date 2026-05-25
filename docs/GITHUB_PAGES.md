@@ -77,7 +77,7 @@ Edit `public/index.html` inside `<head>`:
 <meta name="site-base" content="/REPO_NAME/" />
 ```
 
-Example: repo `destbench` → `content="/destbench/"`
+Example: repo `tag_nav` → `content="/tag_nav/"` → `https://exploreragent8.github.io/tag_nav/`
 
 Commit and push:
 

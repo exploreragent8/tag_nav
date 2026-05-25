@@ -37,7 +37,7 @@ python server.py
 
 Step-by-step guide: **[docs/GITHUB_PAGES.md](docs/GITHUB_PAGES.md)**
 
-Quick summary: create a GitHub repo → `git push` → **Settings → Pages → Source: GitHub Actions** → open `https://YOUR_USER.github.io/REPO_NAME/`.
+Quick summary: create a GitHub repo → `git push` → **Settings → Pages → Source: GitHub Actions** → open `https://exploreragent8.github.io/tag_nav/`.
 
 Screenshots stay on Hugging Face; no `public/dataset/` in git.
 
