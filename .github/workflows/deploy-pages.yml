@@ -1,0 +1,54 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure site for GitHub Pages
+        run: |
+          python3 scripts/configure_hf.py
+          python3 << 'PY'
+          from pathlib import Path
+          import re
+          p = Path("public/index.html")
+          html = p.read_text()
+          if 'name="site-base"' not in html:
+              html = html.replace("<head>", '<head>\n  <meta name="site-base" content="/tag_nav/" />', 1)
+          else:
+              html = re.sub(r'(<meta name="site-base" content=")[^"]*(")', r'\1/tag_nav/\2', html, count=1)
+          p.write_text(html)
+          PY
+        env:
+          HF_DATASET: exploreragent8/DestBench
+          HF_REVISION: main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
