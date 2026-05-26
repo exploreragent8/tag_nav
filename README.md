@@ -14,7 +14,7 @@ All **screenshots** are loaded from Hugging Face (`exploreragent8/DestBench`). T
 ## Quick start
 
 ```bash
-cd /home/mehdi/Desktop/frontend_dataset_paper
+cd path/frontend_dataset_paper
 
 # Refresh manifest from Hugging Face (optional; `public/data/manifest.json` is included)
 python scripts/build_manifest.py

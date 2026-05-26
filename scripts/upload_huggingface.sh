@@ -10,9 +10,6 @@
 
 set -euo pipefail
 
-HF_DATASET="${HF_DATASET:?Set HF_DATASET=user/repo (e.g. mehdi/destbench)}"
-DATA="${AGENT_NAV_DATA:-/home/mehdi/Downloads/AgentNavigatorDataset/DATA}"
-
 if ! command -v huggingface-cli &>/dev/null; then
   echo "Install: pip install -U huggingface_hub"
   exit 1

@@ -25,7 +25,7 @@ Note your URL shape:
 In a terminal:
 
 ```bash
-cd /home/mehdi/Desktop/frontend_dataset_paper
+cd path
 
 git init
 git add .
